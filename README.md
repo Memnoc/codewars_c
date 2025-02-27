@@ -16,3 +16,12 @@ Assuming your project structure is:
 `make test` - Build the test program
 `make run-test` - Build and run the tests
 `make clean` - Remove the compiled binaries
+
+### Compile with CMake (recommended)
+
+In the `build/` directory:
+
+`make ..` - Build the files
+`make` - Build the project
+`make test` - Runs the tests
+`make test_verbose` - Runs the tests with more detailed output
